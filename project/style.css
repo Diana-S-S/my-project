@@ -1,0 +1,298 @@
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background: #f2f2f2;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 1280px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-weight: 600;
+    font-size: 22px;
+    color: #000000;
+    text-align: center;
+    margin: 30px 0px;
+  }
+  
+  /*HEADER*/
+  
+  .header_flex {
+      margin-bottom: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .logo {
+    font-size: 20px;
+    float: left;
+    text-align: left;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  
+  .nav-links {
+    border-spacing: 50px;
+  }
+  
+  .nav-links a {
+    margin: 0 48px;
+  }
+  
+  .nav-links li {
+    display: inline;
+    float: left;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+    color: 000000;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .button {
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000000;
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    padding: 12px 20px;
+    gap: 10px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+  }
+  
+  /*ABOUT ME*/
+  
+  .about {
+    padding: 60px 120px;
+    text-align: center;
+  }
+  
+  .about_img {
+    width: 1040px;
+    height: 360px;
+    border-radius: 24px;
+  }
+  
+  .about_content {
+      font-weight: 600;
+      font-size: 20px;
+      color: #000000;
+      padding: 0 60px;
+      margin-bottom: 40px;
+  }
+  
+  /*MY WORKS*/
+  
+  .myworks_header {
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  .myworks_flex {
+      display: flex;
+      justify-content: space-between;
+      padding: 30px 120px;
+  }
+  
+  .mywork_tile {
+    width: 325px;
+    height: 486px;
+    background-color: white;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 24px;
+  }
+  
+  .mywork_tile img {
+      width: 100%;
+      max-width: 325px;
+      border-radius: 24px 24px 0 0;
+  }
+  
+  .mywork_content {
+      padding: 30px 20px;
+  }
+  
+  .project_title{
+      
+  
+      font-size: 22px;
+      font-weight: 600;
+      margin: 0px;
+  }
+  
+  .project_body{
+      text-align: left;
+      padding-top: 10px;
+      margin: 0px;
+      font-size: 18px;
+      margin-bottom: 30px;
+  }
+  
+  .learn_more {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .learn_more button {
+      background-color: white;
+  }
+  
+  
+  /*WORK PROCESS*/
+  
+  .work_process {
+    background-color: #e4e4e4;
+    border-radius: 24px 24px 0 0;
+    padding: 70px 100px;
+  }
+  
+  .work_items {
+      padding: 20px 0;
+  }
+  
+  .work_item {
+      margin-bottom: 60px;
+  }
+  
+  .item_top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid #333;
+      padding-bottom: 20px;
+    }
+  
+  .item_heading {
+    font-size: 56px;
+    font-style: italic;
+  }
+  
+  .item_number {
+      font-size: 18px;
+      border-radius: 100%;
+      width: 40px;
+      height: 40px;
+      border: 2px solid;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-style: italic;
+  }
+  
+  .item_para {
+      font-size: 20px;
+  }
+  
+  /*MESSAGE CONTENT*/
+  
+  .message_content {
+    background-color: #282828;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 100px 100px;
+  }
+  
+  
+  .white_letter {
+    color: white;
+  }
+  
+  .message_header {
+      font-style: italic;
+    font-weight: 400;
+    font-size: 56px;
+    margin: 0 0 30px 0;
+  }
+  
+  .message_subheader {
+      font-weight: 400;
+    font-size: 18px;
+    margin: 0 0 20px 0;
+  }
+  
+  .message_form {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .name_email_field {
+      display: flex;
+      margin-bottom: 20px;
+  }
+  
+  input {
+      background-color: #373737;
+    border-radius: 8px;
+    height: 45px;
+    font-size: 18px;
+  }
+  
+  .button_send_message {
+    width: 198;
+    height: 63;
+    border-radius: 12px;
+    color: white;
+    background-color: #373737;
+    border: 2px solid white;
+    font-size: 20px;
+  }
+  
+  /*FOOTER*/
+  
+  .footer_flex {
+    width: 1280px;
+    height: 117px;
+    background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo_footer {
+    font-size: 20px;
+    float: left;
+    text-align: left;
+    font-style: bold;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  
+  .footer-links {
+    border-spacing: 50px;
+  }
+  
+  .footer-links a {
+    margin: 0 48px;
+  }
+  
+  .footer-links li {
+    display: inline;
+    float: left;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  
+  .footer-links li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
