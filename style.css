@@ -212,6 +212,11 @@ body {
   }
   
   /*MESSAGE CONTENT*/
+
+  #a_message_content{
+    text-decoration: none;
+    color: #000000;
+  }
   
   .message_content {
     background-color: #282828;
